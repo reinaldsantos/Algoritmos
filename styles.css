@@ -1,0 +1,19 @@
+.container-cursos{
+    padding: 20px;         /* Espaçamento interno */
+    border-radius: 5px;    /* Bordas arredondadas (opcional) */
+    background-color: rgba(88, 87, 87, 0.384); /* Cor de fundo com transparência */
+    width:125%;      }
+
+    .container-Fundamentos{
+        padding: 20px;         /* Espaçamento interno */
+        border-radius: 5px;    /* Bordas arredondadas (opcional) */
+        background-color: rgba(252, 7, 7, 0.596); /* Cor de fundo com transparência */
+        width:125%;      }
+    
+        
+        body {
+            margin-right: 20%;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #060606;
+        }
