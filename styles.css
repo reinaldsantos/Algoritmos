@@ -1,19 +1,21 @@
-.container-cursos{
-    padding: 20px;         /* Espaçamento interno */
-    border-radius: 5px;    /* Bordas arredondadas (opcional) */
-    background-color: rgba(88, 87, 87, 0.384); /* Cor de fundo com transparência */
-    width:125%;      }
+.salary-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.8);
+}
 
-    .container-Fundamentos{
-        padding: 20px;         /* Espaçamento interno */
-        border-radius: 5px;    /* Bordas arredondadas (opcional) */
-        background-color: rgba(252, 7, 7, 0.596); /* Cor de fundo com transparência */
-        width:125%;      }
-    
-        
-        body {
-            margin-right: 20%;
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            background-color: #060606;
-        }
+.salary-table th, .salary-table td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid rgba(255, 215, 0, 0.3);
+}
+
+.salary-table th {
+    background-color: rgba(255, 215, 0, 0.3);
+}
+
+.salary-table tbody tr:hover {
+    background-color: rgba(255, 215, 0, 0.2);
+}
